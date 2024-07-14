@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Final - APIS</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+    <body>
+        <div class="appConvertor">
+            <div>
+                <h1>Conversor de monedas Nacional</h1>
+            </div>
+            <div class="convertidor">
+                <h2>Pesos CLP</h2>
+                <input id="inputApp" type="number" placeholder="Ingrese el monto en CLP">
+                <h4>Monedas a convertir:</h4>
+                <select name="convertidorDivisas" id="divisas">
+                    <option seleccionar divisa>Seleccione moneda</option>
+                    <option value="dolar">Dólar</option>
+                    <option value="euro">Euro</option>
+                    <option value="real">Real</option>
+                    <option value="bitcoin">Bitcoin</option>
+                </select>
+                <button id="btnDivisa">Buscar</button>
+                <p id="resultado">...</p>
+            </div>
+            <div class="lista">
+                <canvas id="grafico"></canvas>
+            </div>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+
+</html>
